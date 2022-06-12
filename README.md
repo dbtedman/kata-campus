@@ -41,10 +41,23 @@ make format
 
 ## Design
 
-> Initially based around sketched ideas collected while considering what this platform would be. These concepts will be
-> refined over time.
+### Clean Architecture
+
+Code within this repository is organised around principles
+from [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+
+| Path                                                  | Purpose |
+| ----------------------------------------------------- | ------- |
+| `com.danieltedman.katacampus.api`                     |         |
+| `com.danieltedman.katacampus.internal.domain.entity`  |         |
+| `com.danieltedman.katacampus.internal.domain.usecase` |         |
+| `com.danieltedman.katacampus.internal.gateway`        |         |
+| `com.danieltedman.katacampus.web`                     |         |
 
 ### Concepts
+
+> 💡 Initially based around sketched ideas collected while considering what this platform would be. These concepts will
+> be refined over time.
 
 #### Dependency Model
 
