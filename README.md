@@ -49,7 +49,7 @@ from [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-c
 > Paths are relative to the `com.danieltedman.katacampus` namespace.
 
 | Path                      | Purpose                                                                                                         |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------|
+| ------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | `api`                     | Restful API that supports SPA.                                                                                  |
 | `internal.domain.entity`  | Represents things in the system. Should not be accessed directly, only accesses the outside world via gateways. |
 | `internal.domain.usecase` | Manages the interaction between gateways, entities, and ports (api/web).                                        |
