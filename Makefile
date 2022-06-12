@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
 
-all: install lint
+all: install lint test compile
 
 install:
 	@pnpm install
@@ -15,4 +15,4 @@ compile:
 	@./gradlew build
 
 test:
-	@./gradlew test
+	@pnpm run test && ./gradlew test
