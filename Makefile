@@ -10,3 +10,9 @@ lint:
 
 format:
 	@pnpm run format
+
+compile:
+	@./gradlew build
+
+test:
+	@./gradlew test
