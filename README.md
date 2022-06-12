@@ -26,8 +26,9 @@ nvm use && make
 
 ### Linting
 
--   [Prettier](https://prettier.io)
+-   [ESLint](https://eslint.org)
 -   [KTLint](https://ktlint.github.io)
+-   [Prettier](https://prettier.io)
 
 ```shell
 make lint

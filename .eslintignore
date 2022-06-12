@@ -1,0 +1,9 @@
+# Don't lint external dependencies
+/node_modules/
+/.gradle/
+
+# Don't lint test coverage
+/coverage/
+
+# Don't lint build output
+/build/
