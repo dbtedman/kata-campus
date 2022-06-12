@@ -12,7 +12,10 @@ format:
 	@pnpm run format && ./gradlew ktlintFormat
 
 compile:
-	@./gradlew build
+	@pnpm run build && ./gradlew build
+
+dev:
+	@pnpm run dev
 
 test:
 	@pnpm run test && ./gradlew test

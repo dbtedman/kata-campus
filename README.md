@@ -166,6 +166,10 @@ _Placeholder_
 ## References
 
 -   2022-06-12: [KTLint Gradle](https://github.com/JLLeitschuh/ktlint-gradle)
+-   2022-06-12: [React Redux](https://react-redux.js.org/tutorials/quick-start)
+-   2022-06-12: [React Router](https://reactrouterdotcom.fly.dev/docs/en/v6)
+-   2022-06-12: [React Testing Library](https://testing-library.com/docs/react-testing-library/example-intro)
+-   2022-06-12: [Redux Saga](https://redux-saga.js.org)
 
 ## License
 

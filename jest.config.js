@@ -4,6 +4,4 @@ module.exports = {
     transform: {
         "^.+\\.tsx?$": "ts-jest",
     },
-    // https://devblogs.microsoft.com/typescript/announcing-typescript-2-7/#easier-ecmascript-module-interoperability
-    esModuleInterop: true,
 };

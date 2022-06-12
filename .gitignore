@@ -5,6 +5,7 @@
 /node_modules/
 .gradle
 build/
+www/
 
 !../gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
