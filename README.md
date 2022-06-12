@@ -166,6 +166,7 @@ _Placeholder_
 
 ## References
 
+-   2022-06-12: [How to add live reload to esbuild server](https://how-to.dev/how-to-add-live-reload-to-esbuild-server)
 -   2022-06-12: [KTLint Gradle](https://github.com/JLLeitschuh/ktlint-gradle)
 -   2022-06-12: [React Redux](https://react-redux.js.org/tutorials/quick-start)
 -   2022-06-12: [React Router](https://reactrouterdotcom.fly.dev/docs/en/v6)
