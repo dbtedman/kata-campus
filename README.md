@@ -46,13 +46,13 @@ make format
 Code within this repository is organised around principles
 from [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
-| Path                                                  | Purpose |
-| ----------------------------------------------------- | ------- |
-| `com.danieltedman.katacampus.api`                     |         |
-| `com.danieltedman.katacampus.internal.domain.entity`  |         |
-| `com.danieltedman.katacampus.internal.domain.usecase` |         |
-| `com.danieltedman.katacampus.internal.gateway`        |         |
-| `com.danieltedman.katacampus.web`                     |         |
+| Path                                                  | Purpose                                                                                                         |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `com.danieltedman.katacampus.api`                     | Restful API that supports SPA.                                                                                  |
+| `com.danieltedman.katacampus.internal.domain.entity`  | Represents things in the system. Should not be accessed directly, only accesses the outside world via gateways. |
+| `com.danieltedman.katacampus.internal.domain.usecase` | Manages the interaction between gateways, entities, and ports (api/web).                                        |
+| `com.danieltedman.katacampus.internal.gateway`        | Gateways provide access to external resources such as the file system or a database.                            |
+| `com.danieltedman.katacampus.web`                     | Suppports rendering of SPA interface.                                                                           |
 
 ### Concepts
 
