@@ -27,6 +27,7 @@ nvm use && make
 ### Linting
 
 -   [Prettier](https://prettier.io)
+-   [KTLint](https://ktlint.github.io)
 
 ```shell
 make lint
@@ -40,7 +41,8 @@ make format
 
 ## Design
 
-> Initially based around sketched ideas collected while considering what this platform would be. These concepts will be refined over time.
+> Initially based around sketched ideas collected while considering what this platform would be. These concepts will be
+> refined over time.
 
 ### Concepts
 
@@ -68,7 +70,8 @@ Short instructional videos on specific topics.
 
 ![Logo graphic to represent projects](doc/asset/projects.png)
 
-Each student has a customized series of projects assigned to them based on their goals and aspirations. Each project is supported by a series of videos and modules. These projects will make up what is now considered to be a degree.
+Each student has a customized series of projects assigned to them based on their goals and aspirations. Each project is
+supported by a series of videos and modules. These projects will make up what is now considered to be a degree.
 
 #### Portfolio
 
@@ -147,7 +150,7 @@ _Placeholder_
 
 ## References
 
-_Placeholder_
+-   2022-06-12: [KTLint Gradle](https://github.com/JLLeitschuh/ktlint-gradle)
 
 ## License
 

@@ -6,10 +6,10 @@ install:
 	@pnpm install
 
 lint:
-	@pnpm run lint
+	@pnpm run lint && ./gradlew ktlintCheck
 
 format:
-	@pnpm run format
+	@pnpm run format && ./gradlew ktlintFormat
 
 compile:
 	@./gradlew build

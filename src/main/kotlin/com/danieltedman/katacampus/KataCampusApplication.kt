@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class KataCampusApplication
 
 fun main(args: Array<String>) {
-	runApplication<KataCampusApplication>(*args)
+    runApplication<KataCampusApplication>(*args)
 }
