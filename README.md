@@ -40,6 +40,15 @@ These rules can then be automatically applied:
 make format
 ```
 
+### Unit Testing
+
+-   [JUnit](https://junit.org/junit5/)
+-   [Jest](https://jestjs.io)
+
+```shell
+make test
+```
+
 ## Design
 
 ### Code Organisation
