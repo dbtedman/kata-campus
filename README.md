@@ -42,12 +42,28 @@ make format
 
 ## Design
 
-### Clean Architecture
+### Code Organisation
 
-Code within this repository is organised around principles
+#### Frontend
+
+> Paths are relative to the `src/main/typescript` directory.
+
+| Path         | Purpose                              |
+| ------------ | ------------------------------------ |
+| `action`     | Action definitions.                  |
+| `api`        | Handle interaction with backend API. |
+| `component`  | View components.                     |
+| `saga`       | Handle asynchronous actions.         |
+| `store`      | Defines reducers.                    |
+| `main.tsx`   | Entrypoint for frontend code.        |
+| `router.tsx` | Define routing rules.                |
+
+#### Backend
+
+Code within the backend is organised around principles
 from [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
-> Paths are relative to the `com.danieltedman.katacampus` namespace.
+> Paths are relative to the `com.danieltedman.katacampus` namespace in the `src/main/kotlin` directory.
 
 | Path                      | Purpose                                                                                                         |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------- |
