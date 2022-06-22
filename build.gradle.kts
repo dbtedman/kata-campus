@@ -16,11 +16,15 @@ repositories {
     mavenCentral()
 }
 
+// TODO: Should we still use lombok for a kotlin project?
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("org.assertj:assertj-core:3.23.1")
+    testImplementation("org.mockito:mockito-core:4.6.1")
 }
 
 tasks.withType<KotlinCompile> {

@@ -107,18 +107,6 @@ A singular communications platform to support a variety of different methods of 
 
 This section enables students to manage their education via a simple interface.
 
-### Domain Entities
-
-_Placeholder_
-
-### Domain Use Cases
-
-_Placeholder_
-
-### Gateways
-
-_Placeholder_
-
 ### Security Mitigations
 
 > Initially based on the [OWASP Top 10 - 2021](https://owasp.org/www-project-top-ten/).
