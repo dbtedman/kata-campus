@@ -7,6 +7,7 @@
 [![sast workflow status](https://img.shields.io/github/workflow/status/dbtedman/kata-campus/sast?style=for-the-badge&logo=github&label=sast)](https://github.com/dbtedman/kata-campus/actions/workflows/sast.yml)
 ![languages: kotlin and typescript](https://img.shields.io/badge/languages-kotlin%20and%20typescript-blue.svg?style=for-the-badge)
 ![frameworks: spring and react](https://img.shields.io/badge/frameworks-spring%20and%20react-blue.svg?style=for-the-badge)
+[![MIT License](https://img.shields.io/github/license/dbtedman/kata-campus?color=orange&style=for-the-badge)](https://github.com/dbtedman/kata-campus/blob/main/LICENSE.md)
 
 Campus headquarters for your personal learning platform.
 
